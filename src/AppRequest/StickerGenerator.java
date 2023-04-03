@@ -1,3 +1,5 @@
+package AppRequest;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.font.FontRenderContext;
@@ -11,7 +13,7 @@ import java.io.InputStream;
 
 public class StickerGenerator {
 
-    public void createImage(InputStream inputStream, String nomeArquivo, String textoDaImagem, InputStream inputStreamSobreposicao) throws IOException {
+    public void createImage(InputStream inputStream, String nomeArquivo, String textoDaImagem) throws IOException {
 
         // leitura da imagem
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
@@ -26,9 +28,11 @@ public class StickerGenerator {
         Graphics2D graphics = (Graphics2D) novaImagem.getGraphics();
         graphics.drawImage(imagemOriginal, 0, 0, null);
 
-        BufferedImage imagemSobreposicao = ImageIO.read(inputStreamSobreposicao);
-        int posicaoImagemSobreporY = novaAltura - imagemSobreposicao.getHeight();
-        graphics.drawImage(imagemSobreposicao, 0, posicaoImagemSobreporY, null);
+        //para adicionar uma imagem sobrepondo a outra
+        //InputStream inputStreamSobreposicao;
+        //BufferedImage imagemSobreposicao = ImageIO.read(inputStreamSobreposicao);
+        //int posicaoImagemSobreporY = novaAltura - imagemSobreposicao.getHeight();
+        //graphics.drawImage(imagemSobreposicao, 0, posicaoImagemSobreporY, null);
 
         //Configurar a fonte
         var fonte = new Font("Impact", Font.BOLD, 40);
