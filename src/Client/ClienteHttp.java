@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ClienteHttp {
 
-    public String buscaDados(String url) {
+    public String buscaDados(String url) throws MyException {
 
 
         try {
@@ -20,7 +20,7 @@ public class ClienteHttp {
             return body;
 
         } catch (IOException | InterruptedException ex) {
-            throw new RuntimeException("Não foi possivel conectar-se com o cliente");
+            throw new MyException("Não foi possivel conectar-se com o cliente");
         }
 
     }
