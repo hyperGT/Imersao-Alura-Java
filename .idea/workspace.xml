@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf4e7fb-8640-4705-9ef5-501ff075dc2e" name="Changes" comment="Interface">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sobreposicao/Eu_resized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sobreposicaoTeste/Eu_resized.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ClienteHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/ClienteHttp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feature/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Conteudo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Imdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Imdb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Nasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Nasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StickerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppRequest/StickerGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdf4e7fb-8640-4705-9ef5-501ff075dc2e" name="Changes" comment="Util" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/Users/01/Downloads",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/01/Downloads&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Client" />
@@ -195,7 +182,63 @@
       <option name="project" value="LOCAL" />
       <updated>1680196449164</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="API config file">
+      <created>1680548885062</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680548885062</updated>
+    </task>
+    <task id="LOCAL-00014" summary="contents record file">
+      <created>1680548914074</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680548914074</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Customized Java Exception">
+      <created>1680548942506</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680548942506</updated>
+    </task>
+    <task id="LOCAL-00016" summary="App class">
+      <created>1680549022043</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680549022043</updated>
+    </task>
+    <task id="LOCAL-00017" summary="get API contents">
+      <created>1680549052291</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680549052291</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Http">
+      <created>1680549074370</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680549074370</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Util">
+      <created>1680549099039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680549099039</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Util">
+      <created>1680549130723</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680549130723</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +264,17 @@
     <MESSAGE value="to extract the contents of the APIs" />
     <MESSAGE value="http client" />
     <MESSAGE value="Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
+    <MESSAGE value="Config file" />
+    <MESSAGE value="API config file" />
+    <MESSAGE value="contents record file" />
+    <MESSAGE value="Customized Java Exception" />
+    <MESSAGE value="Updated!!" />
+    <MESSAGE value="App class" />
+    <MESSAGE value="Http client" />
+    <MESSAGE value="get API contents" />
+    <MESSAGE value="Http" />
+    <MESSAGE value="Util" />
+    <option name="LAST_COMMIT_MESSAGE" value="Util" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
