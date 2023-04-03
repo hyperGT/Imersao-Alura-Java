@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf4e7fb-8640-4705-9ef5-501ff075dc2e" name="Changes" comment="BackEnd Java - Projeto Imersão Alura">
-      <change afterPath="$PROJECT_DIR$/sobreposicao/Eu_resized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StickerGenerator.java" afterDir="false" />
+    <list default="true" id="cdf4e7fb-8640-4705-9ef5-501ff075dc2e" name="Changes" comment="Interface">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Config/API.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sobreposicao/Eu_resized.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sobreposicaoTeste/Eu_resized.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClienteHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/ClienteHttp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feature/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Conteudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Imdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Imdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Nasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Feature/Extrator_Conteudo_Nasa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StickerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppRequest/StickerGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,11 +55,19 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "last_opened_file_path": "C:/Users/01/Downloads",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Client" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\01\IdeaProjects\ProjetoImersaoAlura\sobreposicao" />
       <recent name="C:\Users\01\IdeaProjects\ProjetoImersaoAlura\entrada" />
@@ -57,6 +75,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\01\IdeaProjects\ProjetoImersaoAlura\sobreposicao" />
       <recent name="C:\Users\01\Downloads" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
@@ -68,7 +89,7 @@
       </method>
     </configuration>
     <configuration name="StickerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StickerGenerator" />
+      <option name="MAIN_CLASS_NAME" value="AppRequest.StickerGenerator" />
       <module name="ProjetoImersaoAlura" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +118,84 @@
       <option name="project" value="LOCAL" />
       <updated>1679932073489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JsonParser class">
+      <created>1680038253664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038253664</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sticker Generator class">
+      <created>1680038289156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038289156</updated>
+    </task>
+    <task id="LOCAL-00004" summary="App class updated">
+      <created>1680038327884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038327884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ignore this">
+      <created>1680038344409</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038344409</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ignore this">
+      <created>1680038364788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038364788</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ignore this">
+      <created>1680038373790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038373790</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Result of the sticker generation code">
+      <created>1680038786374</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038786374</updated>
+    </task>
+    <task id="LOCAL-00009" summary="title, image and rating of movies in terminal view">
+      <created>1680038894473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680038894473</updated>
+    </task>
+    <task id="LOCAL-00010" summary="to extract the contents of the APIs">
+      <created>1680196379132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196379132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="http client">
+      <created>1680196406476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196406476</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Interface">
+      <created>1680196449164</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680196449164</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +212,19 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="BackEnd Java - Projeto Imersão Alura" />
-    <option name="LAST_COMMIT_MESSAGE" value="BackEnd Java - Projeto Imersão Alura" />
+    <MESSAGE value="JsonParser class" />
+    <MESSAGE value="Sticker Generator class" />
+    <MESSAGE value="App class updated" />
+    <MESSAGE value="ignore this" />
+    <MESSAGE value="Result of the sticker generation code" />
+    <MESSAGE value="title, image and rating of movies in terminal view" />
+    <MESSAGE value="to extract the contents of the APIs" />
+    <MESSAGE value="http client" />
+    <MESSAGE value="Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
