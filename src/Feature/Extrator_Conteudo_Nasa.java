@@ -16,9 +16,16 @@ public class Extrator_Conteudo_Nasa implements Extrator_Conteudo {
     var parser = new JsonParser();
     List<Map<String, String>> listaDeAtributos = parser.parse(json);
 
-    List<Conteudo> conteudos = new ArrayList<>();
 
     // popular a lista de conteúdos
+        return listaDeAtributos.stream()
+                .map((atributos) -> new Conteudo(atributos.get("title"), atributos.get("url")))
+                .toList();
+
+    //o código antes era assim:
+    /*
+    List<Conteudo> conteudos = new ArrayList<>();
+
     for (Map<String, String> atributos : listaDeAtributos){
         String titulo = atributos.get("title");
         String urlImagem = atributos.get("url");
@@ -27,6 +34,6 @@ public class Extrator_Conteudo_Nasa implements Extrator_Conteudo {
         conteudos.add(conteudo);
     }
 
-    return conteudos;
+    return conteudos;*/
     }
 }

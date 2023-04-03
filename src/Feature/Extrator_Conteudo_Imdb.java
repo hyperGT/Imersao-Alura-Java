@@ -7,29 +7,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static java.util.stream.Collectors.toList;
+
 public class Extrator_Conteudo_Imdb implements Extrator_Conteudo {
 
     //extração de dados da API Nasa APOD
-    public List<Conteudo> extraiConteudos(String json){
+    public List<Conteudo> extraiConteudos(String json) {
 
-    // extrair os dados que interessam (titulo, imagem, classificação)
-    var parser = new JsonParser();
-    List<Map<String, String>> listaDeAtributos = parser.parse(json);
+        // extrair os dados que interessam (titulo, imagem, classificação)
+        var parser = new JsonParser();
+        List<Map<String, String>> listaDeAtributos = parser.parse(json);
 
-    List<Conteudo> conteudos = new ArrayList<>();
+        //uso de stream e lambda para diminuir as linhas de código e popular a lista de conteudos
+        return listaDeAtributos.stream()
+                .map((atributos) -> new Conteudo(atributos.get("title"), atributos.get("image")))
+                .toList();
 
-    // popular a lista de conteúdos
-    for (Map<String, String> atributos : listaDeAtributos){
-        String titulo = atributos.get("title");
-        String urlImagem = atributos.get("image");
-        //String rate = atributos.get("imDbRating");
-        var conteudo = new Conteudo(titulo, urlImagem);
-        // var rating = new Feature.Conteudo(rate);
-
-        //conteudos.add(rating);
-        conteudos.add(conteudo);
-    }
-
-    return conteudos;
     }
 }
